@@ -223,7 +223,19 @@ button {
     height: 500px;
     border-radius: 9px;
   }
-  
+
+  /* .modalClass {
+    display: flex;
+    opacity: 1;
+    animation: all 2s;
+  }
+
+  .modalClass.addedclass {
+    display: flex;
+    opacity: 1;
+    animation: all 2s;
+  } */
+
   /* The Close Button */
   .close {
     display: flex;
@@ -247,3 +259,5 @@ button {
     text-decoration: none;
     cursor: pointer;
   }
+
+  @keyframes meuModal { 100% { transition: opacity 1s ease-in-out; } }

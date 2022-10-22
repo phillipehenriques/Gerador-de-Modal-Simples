@@ -10,8 +10,10 @@ var span = document.getElementsByClassName("close")[0];
 // Quando o usuário clicar no botão, abre o modal
 
 btn.onclick = function() {
+
   modal.style.display = "flex";
-  modal.style.transition = 1000000  // < - ele não entende o numero para transição
+  modal.style.animationDuration = "meuModal 4s";
+  // < - ele não entende o numero para transição
 }
 
 // (x), clicando no x pra fechar o modal modal
